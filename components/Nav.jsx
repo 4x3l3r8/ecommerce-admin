@@ -10,7 +10,7 @@ export default function Nav() {
   return (
     <aside className="p-4 pr-0 text-white">
       <Link href={"/"} className="flex gap-1 mb-4 mr-4">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -21,7 +21,7 @@ export default function Nav() {
       </Link>
       <nav className="flex flex-col gap-2">
         <Link href={"/"} className={pathname === "/" ? activeLink : inactiveLink}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -31,7 +31,7 @@ export default function Nav() {
           Dashboard
         </Link>
         <Link href={"/products"} className={pathname.includes("/products") ? activeLink : inactiveLink}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -41,7 +41,7 @@ export default function Nav() {
           Products
         </Link>
         <Link href={"/orders"} className={pathname.includes("/orders") ? activeLink : inactiveLink}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -51,7 +51,7 @@ export default function Nav() {
           Orders
         </Link>
         <Link href={"/settings"} className={pathname.includes("/settings") ? activeLink : inactiveLink}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"

@@ -2,6 +2,7 @@ import Layout from "@/components/Layout"
 import Nav from "@/components/Nav"
 import { useSession, signIn, signOut } from "next-auth/react"
 import Image from "next/image"
+import React from "react"
 
 export default function Home() {
   const { data: session } = useSession()
